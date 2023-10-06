@@ -1,0 +1,93 @@
+%_button{
+
+    a {
+        background: #2f80ed;
+        height: 50px;
+        line-height: 46px;
+        padding: 0 25px;
+        font-size: 15px;
+        color: #ffffff;
+        text-align: center;
+        padding: 0 30px;
+        display: inline-block;
+        font-weight: 600;
+        border-radius: 6px;
+        text-transform: capitalize;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            border: 2px solid #2f80ed;
+            color: #2f80ed;
+            background-color: #fff;
+            &::after{
+                background-color: #fff;
+                z-index: -1;
+                transform: skewX(45deg) scale(1, 1);
+            }
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background-color: #fff;
+            z-index: 1;
+            transform: skewX(45deg) scale(0,1);
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+%_button_white{
+
+    a {
+        background-color: #fff;
+        height: 54px;
+        line-height: 51px;
+        padding: 0 25px;
+        font-size: 15px;
+        color: #2f80ed;
+        text-align: center;
+        padding: 0px 41px;
+        display: inline-block;
+        font-weight: 600;
+        border-radius: 6px;
+        text-transform: capitalize;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            border: 2px solid #2f80ed;
+            color: #fff;
+            background-color:  #2f80ed;
+            &::after{
+                background: #2f80ed;
+                z-index: -1;
+                transform: skewX(45deg) scale(1, 1);
+            }
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background-color: #2f80ed;
+            z-index: 1;
+            transform: skewX(45deg) scale(0,1);
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}

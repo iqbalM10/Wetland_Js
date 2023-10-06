@@ -1,0 +1,138 @@
+#text_muted {
+    padding-top: 120px;
+   
+    background: #f4f9fd;
+    position: relative;
+
+    .footer_area {
+
+        .left_side {
+
+        
+            h4{
+
+                color: #57556a;
+                font-weight: 600;
+                padding-right: 70px;
+                font-family: "Open Sans", sans-serif;
+font-size: 16px;
+
+margin-bottom: 15px;
+line-height: 26px;
+
+@media (max-width:767px) {
+
+padding-right: 0;
+}
+            }
+
+
+            .left_img {
+               
+
+                
+                img {
+                    width: 140px;
+                   
+                   
+                }
+            }
+
+
+        }
+    }
+
+    .info_area {
+
+        h6 {
+            font-size: 18px;
+            margin-bottom: 0;
+            padding-top: 10px;
+            color: #070337;
+            margin-top: 0px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        p {
+            padding-top: 8px;
+            margin-bottom: 15px;
+
+
+            a {
+                font-weight: 600;
+                color: #57556a;
+                font-size: 17px;
+
+            }
+        }
+    }
+
+    .middle_area {
+
+        h6 {
+            font-size: 18px;
+            margin-bottom: 0;
+            padding-top: 10px;
+            color: #070337;
+            margin-top: 0px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        p {
+            padding-top: 8px;
+            margin-bottom: 15px;
+
+            a {
+                font-weight: 600;
+                color: #57556a;
+                font-size: 17px;
+
+            }
+        }
+
+    }
+
+    .right_side {
+
+        h6 {
+            font-size: 18px;
+            margin-bottom: 0;
+            padding-top: 10px;
+            color: #070337;
+            margin-top: 0px;
+            font-weight: 700;
+            line-height: 1.2;
+
+        }
+
+        i {
+
+            color: #868d94;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 38px;
+            text-align: center;
+            border: 1px solid #c7ced4;
+            margin-right: 10px;
+            border-radius: 50%;
+            transition: all 0.3s ease-out 0s;
+
+            &:hover{
+                color: #fff ;
+                background-color:#0d6efd;
+            }
+        }
+
+    }
+
+    .footer_brand {
+        border-top: 1px solid #e7ecf1;
+        padding: 25px 0;
+        margin-top: 65px;
+
+       
+    }
+}
